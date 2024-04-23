@@ -1,0 +1,333 @@
+/* responsive */
+
+@media only screen and (max-width: 1165px) {
+    .header-content{
+        margin-top: 1.5rem;
+    }
+    .sale-img img {
+        width: 151px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .find-food-title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1008px) {
+    .food-name {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .img-section-mobile-app {
+        grid-row: 2;
+        grid-column: 2 span;
+        margin-top: 4rem;
+        justify-self: center;
+    }
+    .img-section-mobile-app img {
+        max-width: 400px;
+        top: -22px;
+    }
+    .content-section-mobile-app {
+        grid-column: 2 span;
+        text-align: center;
+    }
+    .content-section-mobile-app h4 {
+        font-size: 27px;
+    }
+    .content-section-mobile-app p {
+        font-size: 15px;
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .img-section-mobile-app img {
+        max-width: 188px;
+        top: -15px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    nav {
+        grid-template-columns: 50px 498px 227px;
+    }
+    .nav-list {
+        justify-content: center;
+    }
+    .food-delivery {
+        top: -0.5rem;
+        left: -7rem;
+    }
+    .hader-title {
+        font-size: 40px;
+    }
+    .left-order {
+        max-width: 85%;
+    }
+    .hader-title {
+        line-height: 55px;
+    }
+    .header-button {
+        gap: 20px;
+    }
+    .header-total-price > span {
+        font-size: 18px;
+    }
+    .order-now {
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+    .count-btn { 
+        padding: 8px 16px;
+    }
+    .fixed-delivery > span {
+        font-size: 18px;
+    }
+    .delivery-time {
+        font-size: 13px;
+    }
+    .food-delivery > img {
+        width: 1.2rem;
+        margin-right: 0.4rem;
+    }
+    .sale-img img {
+        width: 118px;
+    }
+    .find-food-title {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (min-width: 863px) {
+    .burger-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 877px) {
+    .find-food-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .burger-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        grid-template-columns: repeat(3,auto);
+    }
+    .nav-list {
+        position: fixed;
+        left: -170px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
+        background: var(--color_FFC300);
+        width: 170px;
+        transition: all 250ms ease-in-out;
+    }
+    
+    .nav-list li {
+        margin-top: 2rem;
+    }
+    
+    .burger-nav svg:first-child {
+        display: block;
+    }
+    .sale-box-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    .right-side-wrapper {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .find-food-title {
+        font-size: 20px;
+    }
+    .right-side-wrapper {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header-content {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+    .left-order {
+        max-width: 68%;
+    }
+    .hader-title {
+        line-height: 45px;
+    }
+    .header-description {
+        margin-bottom: 1rem;
+    }
+    .hader-title {
+        font-size: 35px;
+    }
+    .header-burger {
+        width: 55%;
+    }
+    .food-delivery {
+        top: 19rem;
+        left: 3rem;
+    }
+    .fixed-delivery span {
+        font-size: 14px;
+    }
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-order {
+        margin-top: 5rem;
+    }
+    .desktop-order {
+        display: none;
+    }
+    .mobile-order {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .find-food-title {
+        font-size: 15px;
+    }
+    .start-score {
+        width: 16px;
+    }
+    .section-mobile-app {
+        border-radius: 500px 500px 0 0;
+    }
+    .content-section-mobile-app {
+        margin-top: 6rem;
+        text-align: center;
+    }
+    }
+    .content-section-mobile-app p {
+        /* max-width: 100%; */
+    }
+
+@media only screen and (max-width: 578px) {
+    .input-content {
+        gap: 15px;
+    }
+    .right-side-wrapper {
+        flex-basis: 55%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .food-delivery {
+        top: 13rem;
+        left: 1rem;
+    }
+    .fixed-delivery span {
+        font-size: 12px;
+    }
+    .delivery-time {
+        font-size: 11px;
+    }
+    .order-now {
+        padding: 11px 6px;
+        font-size: 13px;
+    }
+    .count-btn {
+        padding: 11px 6px;
+        font-size: 13px;
+    }
+    .food-box-container {
+        grid-template-columns: 1fr;
+    }
+    .sale-box-container {
+        grid-template-columns: repeat(1, auto);
+    }
+    .sale-img img {
+        width: 160px;
+    }
+    .right-side-wrapper {
+        flex-basis: 70%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .find-food-description {
+        font-size: 12px;
+    }
+    .find-food-title {
+        font-size: 12px;
+    }
+    .input-wrapper {
+        gap: 0;
+        padding-left: 0;
+    }
+    .right-side-wrapper {
+        flex-basis: 63%;
+    }
+}
+
+@media only screen and (max-width: 445px)  {
+    .right-side-wrapper {
+        flex-basis: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .food-delivery {
+        top: 10rem;
+        left: 0;
+    }
+    .fixed-delivery span {
+        font-size: 9px;
+    }
+    .delivery-time {
+        font-size: 10px;
+    }
+    .header-button {
+        gap: 5px;
+    }
+    .input-content input {
+        font-size: 12px;
+    }
+    .input-content {
+        padding: 8px;
+        gap: 0;
+    }
+    .input-content button {
+        line-height: 20px;
+        padding: 10px 9px;
+        font-size: 12px;
+    }
+    .find-food-title {
+        font-size: 9px;
+    }
+    .find-food-description {
+        font-size: 8px;
+    }
+}
